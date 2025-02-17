@@ -4,9 +4,11 @@ Importovat Ubuntu user server velky
 log na server ssh na server:
 ```
 ip add 
-ssh student@192.168.10.30
-``` 
 ```
+V terminalu:
+```
+### Každý bude mít jiné ip ###
+ssh student@192.168.10.30
 sudo su -
 ```
 Updatnout a stáhnout
