@@ -116,10 +116,34 @@ Advanced database cleaner
 ```
 https://developer.wordpress.org/themes/advanced-topics/child-themes/
 
-
-
+Vracíme se zpátky do terminalu
+```
+apt install php-fpm
+atp install net-tools
+netstat -vapnl | grep php-fpm
+######
+sudo a2dismod php8.1
+sudo a2dismod mpm_prefork
+sudo a2enmod mpm_event
+sudo a2enmod proxy proxy_fcgi
+sudo a2enconf php8.1-fpm 
+sytemctl reload apache2
+```
+Vzal obrovský kod z téhle stránky
+https://serverfault.com/questions/1118977/configuring-php-fpm-in-apache
+Je to pod  ( c ). Create host
+Type:
+```
+mcedit /etc/apache2/sites-enabled a ten soubor v tom
+Vyměníme vše až na virtualHost
+### Něco poměnil nemám tucha co ###
+```
 
 Nejspíš to nebude vůbec k něčemu a možně chybné
 --------------------------------------------------------------
 Nespoléhejte se na to. Dělám to jenom abych dával pořádný pozor.											
+
+
+
+
 
