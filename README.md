@@ -1,7 +1,7 @@
 <h2>Zapis OS 17. 2. 2025</h2>
 Importovat Ubuntu user server velky
-log na server
-ssh na server:
+
+log na server ssh na server:
 ```
 ip add 
 ssh student@192.168.10.30
@@ -84,3 +84,42 @@ ls -l
 rm index.html
 ```
 V browseru jít na wordpress na ip toho serveru 
+```
+### Pokracuj v instalaci ###
+database: wordpress
+user: student@localhost
+password: student
+### Vyjede vec s konfigem nějakého wp-config.php ###
+### upravte to nějak###
+vim wp-config.php
+```
+Ve vimu
+```
+ctrl + shift + v
+:wq
+```
+pak pokračovat na stránce 
+Skončíš na  Information needed
+```
+Jakýkoli 
+všechno si teď můžeš vymyslet
+heslo si asi uprav
+email si klidně vymysli
+```
+Jsme ve wordpressu 
+Nainstalujeme antivir v pluginech
+```
+Wordfence
+Wpvivid
+Wp-optimize
+Advanced database cleaner
+```
+https://developer.wordpress.org/themes/advanced-topics/child-themes/
+
+
+
+
+Nejspíš to nebude vůbec k něčemu a možně chybné
+--------------------------------------------------------------
+Nespoléhejte se na to. Dělám to jenom abych dával pořádný pozor.											
+
